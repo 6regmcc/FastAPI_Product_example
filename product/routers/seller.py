@@ -12,7 +12,6 @@ from fastapi import status
 
 router = APIRouter(
     tags=["Seller"]
-
 )
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
